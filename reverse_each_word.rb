@@ -5,5 +5,5 @@ def reverse_each_word(str)
     i.reverse
     binding.pry
   end
-  i.join(" ")
+  final.join(" ")
  end
