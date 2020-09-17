@@ -1,10 +1,10 @@
 require 'pry'
 
-def reverse_each_word(string)
+def reverse_each_word(str)
   newStr = []
   
-  newStr.collect do string.split()
-  binding pry
+  newStr.collect do str.split()
+ 
 end
   return newStr
 end
