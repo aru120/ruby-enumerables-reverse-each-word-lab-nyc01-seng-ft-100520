@@ -4,6 +4,7 @@ def reverse_each_word(string)
   newStr = []
   
   newStr.collect do string.split()
+  binding pry
 end
   return newStr
 end
