@@ -3,8 +3,8 @@ require 'pry'
 def reverse_each_word(string)
   newStr = []
   
-  newStr.collect string.split("").map 
-  
+  newStr.collect do string.split().map 
+end
   return newStr
 end
 
