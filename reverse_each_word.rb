@@ -1,7 +1,10 @@
+require 'pry'
+
 def reverse_each_word(string)
   newStr = []
   
   newStr << string.split("")
+  
   return newStr
 end
 
