@@ -3,7 +3,7 @@ require 'pry'
 def reverse_each_word(string)
   newStr = []
   
-  newStr.collect do string.split().map 
+  newStr.collect do string.split()
 end
   return newStr
 end
